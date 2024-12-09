@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Begialo';
+    src: url(Fonts/Begialo-BF64f85a76270f6.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Komigo';
+    src: url(Fonts/Komigo3DRegular-rg1lK.ttf) format(truetype);
+}
+
+body{
+    background: linear-gradient(to bottom right, #c9a0dc,#8a2be2);
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.set_logo{
+    position: fixed;
+    height: auto;
+    top: 10px;
+    left: 10px;
+    width: 60px;
+    /*margin: 0px 10px;*/
+}
+
+/* .fa-solid_fa-bars{
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+    vertical-align: top;
+    margin-top: 10px;
+} */
+
+/*.icon:hover{
+
+}*/
+
+.game_heading{
+    size: 5em;
+    height: 66vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*
+    display: grid;
+    place-items: center;
+    */
+    font-size: 4.5em;
+    font-family: 'Komigo';
+    /*padding: 3cm;*/
+}
+
+.container {
+    /* width: 180px;
+    height: 70px; */
+    /* display: flex;
+    justify-content: space-between; */
+    /* padding-right: 400px; */
+    padding-left: 380px; 
+    display: grid; 
+    grid-template-columns: repeat(8, 1fr); 
+    gap: 80px; 
+}
+/*
+.button1, .button2{
+    position: relative;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button1:active, .button2:active {
+    transform: scale(0.96);
+}
+
+.button1::before,
+.button1::after,
+.button2::before,
+.button2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 150%;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.button1.animate::before, .button2.animate::before {
+    top: -70%;
+    background-image: radial-gradient(circle, #c9a0dc 20%, transparent 20%),
+        radial-gradient(circle, transparent 20%, #c9a0dc 20%, transparent 30%),
+        radial-gradient(circle, #c9a0dc 20%, transparent 20%),
+        radial-gradient(circle, transparent 10%, #c9a0dc 15%, transparent 30%),
+        radial-gradient(circle, #c9a0dc 20%, transparent 20%),
+        radial-gradient(circle, #c9a0dc 20%, transparent 20%),
+        radial-gradient(circle, #c9a0dc 20%, transparent 20%),
+        radial-gradient(circle, #c9a0dc 20%, transparent 20%);
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 
+        18% 18%, 10% 10%, 10% 10%, 18% 18%;
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 
+        25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+    animation: topBubbles 0.6s ease-in-out infinite;
+}
+
+@keyframes topBubbles{
+    50% {
+        background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%,
+            30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+    }
+    100% {
+        background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%,
+            30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%,
+            0% 0%, 0% 0%, 0% 0%, 0% 0%;
+    }
+}
+
+.button1.animate::after, .button2.animate::after {
+    bottom: -70%;
+    background-image:radial-gradient(circle, #ac8abc 20%, transparent 20%),
+        radial-gradient(circle, transparent 10%, #ac8abc 15%, transparent 20%),
+        radial-gradient(circle, #ac8abc 20%, transparent 20%),
+        radial-gradient(circle, #ac8abc 20%, transparent 20%),
+        radial-gradient(circle, #ac8abc 20%, transparent 20%),
+        radial-gradient(circle, #ac8abc 20%, transparent 20%),
+        radial-gradient(circle, #ac8abc 20%, transparent 20%),
+        radial-gradient(circle, #ac8abc 20%, transparent 20%);
+    background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 0% 0%;
+    background-position: 10% 0%, 30% 10%,55% 0%, 70% 0%, 85% 0%, 70% 0%; 
+    animation: bottomBubbles 0.6s ease-in-out infinite;  
+}
+
+@keyframes bottomBubbles {
+    50% {
+        background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+    }
+    100% {
+        background-position:  0% 90%, 20% 90%, 45% 70%, 60% 110%,
+            75% 80%, 95% 70%, 110% 10%;
+        background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%,
+            0% 0%, 0% 0%, 0% 0%, 0% 0%;;
+    }
+}
+*/

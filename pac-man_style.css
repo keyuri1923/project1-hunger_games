@@ -1,0 +1,78 @@
+        body{
+                background-color:rgb(85, 12, 85);
+                justify-content: center;
+        }
+
+        .grid {
+                box-shadow: 10px 10px 20px;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 50px;
+                width: 500px;
+                height: 500px;
+                border: solid black;
+                margin-left: auto;
+                margin-right:auto;
+                background-color: white;
+        }
+        
+
+        .grid div {
+                width: 25px;
+                height: 25px;
+                }
+
+             
+
+        .dots {
+              /*  background-color: rgb(230, 171, 104); 
+                border: 1px solid rgb(230, 171, 104);*/
+                box-sizing: border-box;
+                background-image: url("./images/cherry2.png");
+        }
+
+
+        .wall{
+                background-color:black;
+        }
+
+
+        .power-pellet{
+                       /* background-color: rgb(230, 171, 104);
+                        border-radius: 10px;
+                        border-color:black;
+                        border: 1px solid rgb(230, 171, 104); */
+                        box-sizing: border-box;
+                        background-image: url("./images/watermelon2.jpg");
+                }
+
+
+        .empty{
+                background-color:white;
+        }
+
+
+        .pacman {
+                /*background-color: yellow;
+                border-radius: 10px;*/
+                background-image: url("./images/pacman2.png");
+                }
+
+        .display{
+                    border: 7px;
+                    font-family:'Lucida handwritting';
+                    font-size: 30px;
+                    background-color: green;
+                }        
+
+        .ghost1 {
+                 background-color: red;
+                }
+                    
+        .ghost2 {
+                 background-color: pink;
+               }
+                    
+        .ghost3{
+                 background-color: cyan;
+              } 
